@@ -1,4 +1,4 @@
-package com.linearsoft.android.xposed.common;
+package com.linearsoft.android.common.xposed;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.linearsoft.android.xposed.common.test", appContext.getPackageName());
+        assertEquals("com.linearsoft.android.common.xposed.test", appContext.getPackageName());
     }
 }

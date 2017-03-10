@@ -1,4 +1,4 @@
-package com.linearsoft.android.xposed.common;
+package com.linearsoft.android.common.xposed;
 
 import org.junit.Test;
 
